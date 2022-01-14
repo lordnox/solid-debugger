@@ -15,7 +15,8 @@
     "build": "vite build && tsc -p tsconfig-build.json",
     "format": "prettier -w .",
     "dev": "vite -c vite-demo.config.ts",
-    "build-demo": "vite build -c vite-demo.config.ts"
+    "build-demo": "vite build -c vite-demo.config.ts",
+    "prepare": "npm run build"
   },
   "author": "modderme123",
   "contributors": [
